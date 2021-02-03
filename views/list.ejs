@@ -1,0 +1,35 @@
+<%- include("header") -%> 
+    <div class="box" id="day">
+        <h1><%= Day %> </h1>
+    </div>
+    
+    <div class="box">
+        
+        <div class="heading">
+            <div class="list_title"></div>
+                <h2><%= listTitle %></h2>
+            
+        </div>
+
+        <ul>
+       
+            <% for (let i=0; i < items.length; i++) { %>
+                <form action="/delete" method="post">
+                    <div class="item">
+                        <input type="checkbox" onChange="this.form.submit()" name="checkbox" value="<%= items[i]._id %>">
+                        <p class=""><%=items[i].name%></p>
+                    </div>
+                    <input type="hidden" name="listName" value="<%= listTitle %>"></form>
+                </form>                  
+            <%}%>
+        </ul>
+
+        <div class="input-form">
+            <form action="/" method="post" class=" last-child" id="new_item">
+                <input type="text" name="newItem" placeholder="I must remember to" autocomplete="off">
+                <button type="submit" name="list" value="<%= listTitle %>">+</button>
+            </form>
+        </div>    
+    </div>
+    
+<%- include("footer") -%>

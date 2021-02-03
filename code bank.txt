@@ -1,0 +1,6 @@
+                <!-- <% if(i < items.length - 1) { %> -->
+
+ <!-- <% } %> -->
+                <!-- <% else {%> -->
+                    <!-- <li class="item:last-child"><%=items[i]%></li> -->
+                <!-- <% } %>     -->

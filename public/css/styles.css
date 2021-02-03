@@ -1,0 +1,143 @@
+html {
+  background-image: url("../images/alberta-amazing-attraction-banff-417074.jpg");
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+  padding: auto;
+  text-align: center;
+  
+}
+h2 {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ecfcffe5;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px #10131d;
+}
+
+.heading {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #3e65ffb7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
+}
+/* .list-title {
+  text-align: center;
+  width: 100%;
+} */
+
+
+#day {
+  background-color: rgba(0,0,0,0.32);
+  
+  margin-top: 100px;
+}
+/* #new_item {
+  border: 0px;
+} */
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-left: 5px solid #3e65ffb7;
+  margin-bottom: 5px;
+  /* box-shadow: 0px 1px 5px -1px  #10131d;
+  
+  border-bottom: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke; */
+}
+
+.last-child {
+  border-bottom: 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+}
+
+.input-form {
+ 
+  padding: auto;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #5edfff;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #3e65ffb7;
+  
+  color: #fff;
+  font-size: 30px;
+  padding: 6px;
+  border-width: 0;
+  
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 250px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #5edfff;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.9;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+ul {
+  padding-right: 40px;
+}
